@@ -6,7 +6,7 @@ function findMaxChar(str) {
   // Заполнение объекта charCount
   for (let i = 0; i < str.length; i++) {
     const char = str[i];
-    charCount[char] = charCount[char] ? charCount[char] + 1 : 1;
+    charCount[char] = charCount[char] ? ++charCount[char] : 1;
 
     // Поиск максимально часто встречаемого символа
     if (charCount[char] > maxCount) {
