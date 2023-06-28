@@ -1,14 +1,14 @@
 function calculateNumbers() {
-  const numbers = [],
-    maxRandomNumbers = 100;
+  const numbers = [];
+  const maxRandomNumbers = 100;
 
   for (let i = 0; i < 10; i++) {
     let randomNumber = Math.floor(Math.random() * maxRandomNumbers) + 1;
     numbers.push(randomNumber);
   }
 
-  const evenNumbers = [],
-    oddNumbers = [];
+  const evenNumbers = [];
+  const oddNumbers = [];
 
   for (let i = 0; i < numbers.length; i++) {
     if (numbers[i] % 2 === 0) {
