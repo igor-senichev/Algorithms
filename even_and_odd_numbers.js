@@ -1,9 +1,9 @@
 function calculateNumbers() {
   const numbers = [];
-  const maxRandomNumbers = 100;
+  const maxRandomNumber = 100;
 
   for (let i = 0; i < 10; i++) {
-    let randomNumber = Math.floor(Math.random() * maxRandomNumbers) + 1;
+    let randomNumber = Math.floor(Math.random() * maxRandomNumber) + 1;
     numbers.push(randomNumber);
   }
 
